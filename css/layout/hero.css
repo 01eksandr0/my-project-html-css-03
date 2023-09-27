@@ -1,0 +1,148 @@
+.hero-section {
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url(../../images/hero-simply-mobail.jpg);
+  width: 335px;
+  height: 620px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto 80px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+}
+.hero-title {
+  width: 299px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-align: start;
+  margin-bottom: 32px;
+  padding-top: 395px;
+}
+.hero-btn-list {
+  display: flex;
+  gap: 32px 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero-btn-first {
+  border-radius: 100px;
+  background: #fd9222;
+  width: 120px;
+  height: 41px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  flex-shrink: 0;
+}
+.hero-btn-second {
+  height: 41px;
+  width: 159px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+}
+.hero-scrole-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hero-paragraph {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+.hero-btn-scrle {
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  line-height: 0;
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../../images/hero-simply-tablet.jpg);
+    width: 704px;
+    height: 890px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+  }
+  .hero-title {
+    width: 484px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: start;
+    margin-bottom: 32px;
+    padding-top: 671px;
+  }
+  .hero-btn-list {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  .hero-paragraph {
+    font-size: 14px;
+    margin-left: 153px;
+  }
+  .hero-btn-first {
+    width: 144px;
+    height: 45px;
+  }
+  .hero-btn-second {
+    height: 45px;
+    width: 183px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../../images/hero-simply-distop.jpg);
+    width: 1136px;
+    height: 600px;
+    margin-bottom: 80px;
+  }
+  .hero-title {
+    padding-top: 381px;
+  }
+  .hero-paragraph {
+    margin-left: 585px;
+  }
+}
