@@ -16,7 +16,7 @@
   padding-left: 16px;
 }
 .hero-title {
-  width: 299px;
+  width: 280px;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -28,14 +28,14 @@
 }
 .hero-btn-list {
   display: flex;
-  gap: 32px 14px;
+  gap: 32px 12px;
   align-items: center;
   flex-wrap: wrap;
 }
 .hero-btn-first {
   border-radius: 100px;
   background: #fd9222;
-  width: 120px;
+  width: 115px;
   height: 41px;
   color: #fff;
   font-family: Montserrat;
@@ -48,7 +48,7 @@
 }
 .hero-btn-second {
   height: 41px;
-  width: 159px;
+  width: 150px;
   border-radius: 100px;
   border: 1px solid #fff;
   background-color: transparent;
@@ -94,10 +94,6 @@
       url(../../images/hero-simply-tablet.jpg);
     width: 704px;
     height: 890px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    margin-bottom: 40px;
   }
   .hero-title {
     width: 484px;

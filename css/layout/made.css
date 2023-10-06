@@ -54,7 +54,7 @@
 .made-list {
   display: flex;
   flex-direction: column;
-  gap: x;
+  gap: 24px;
 }
 .made-content-container {
   padding: 20px;
