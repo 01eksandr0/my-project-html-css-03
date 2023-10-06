@@ -80,9 +80,9 @@
 }
 @media screen and (min-width: 1158px) {
   .tovar-cart {
-    width: 210px;
+    width: 264px;
   }
   .tovar-list {
-    gap: 24px 18px;
+    gap: 24px 12px;
   }
 }
