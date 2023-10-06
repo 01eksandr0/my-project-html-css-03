@@ -28,9 +28,11 @@
             </svg>
           </a>
           <ul class="header-nav-list">
-            <li><a href="" class="header-hav-link">Home</a></li>
-            <li><a href="" class="header-hav-link">How it’s made?</a></li>
-            <li><a href="" class="header-hav-link">Chocolate is loved</a></li>
+            <li><a href="#home" class="header-hav-link">Home</a></li>
+            <li><a href="#made" class="header-hav-link">How it’s made?</a></li>
+            <li>
+              <a href="#selers" class="header-hav-link">Chocolate is loved</a>
+            </li>
           </ul>
         </nav>
         <address class="header-address">
@@ -58,7 +60,7 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="header-btn-menu" id="button-open-mob">
+        <button type="button" class="header-btn-menu" id="btn-open-menu">
           <svg width="28" height="28">
             <use href="./images/icons.svg#icon-solid-menu"></use>
           </svg>
@@ -68,7 +70,7 @@
     <!-- ==================MAIN========================== -->
     <main>
       <!-- ================HERO=========================== -->
-      <section class="hero-section">
+      <section class="hero-section" id="home">
         <div class="container">
           <h1 class="hero-title">
             Treat yourself or a loved one to our finest ingredients for a moment
@@ -76,7 +78,9 @@
           </h1>
           <ul class="hero-btn-list">
             <li>
-              <button type="button" class="hero-btn-first">Buy now</button>
+              <button type="button" class="hero-btn-first" id="btn-open-form">
+                Buy now
+              </button>
             </li>
             <li>
               <button type="button" class="hero-btn-second">
@@ -283,7 +287,7 @@
         </div>
       </section>
       <!-- ============MADE SECTION=============== -->
-      <section class="made-section">
+      <section class="made-section" id="made">
         <div class="container">
           <h2 class="made-title">
             How it’s <span class="made-title-part">made?</span>
@@ -469,7 +473,7 @@
         </div>
       </section>
       <!-- ===============SELERS========== -->
-      <section class="selers-sections">
+      <section class="selers-sections" id="selers">
         <div class="container">
           <h2 class="selers-title">
             Top <span class="selers-title-part">sellers</span>
@@ -637,10 +641,14 @@
         <div class="footer-min-container-second">
           <nav class="footer-navigation">
             <ul class="footer-nav-list">
-              <li><a class="footer-text-common" href="">Home</a></li>
-              <li><a class="footer-text-common" href="">How it’s made?</a></li>
+              <li><a class="footer-text-common" href="#home">Home</a></li>
               <li>
-                <a class="footer-text-common" href="">Chocolate is loved</a>
+                <a class="footer-text-common" href="#made">How it’s made?</a>
+              </li>
+              <li>
+                <a class="footer-text-common" href="#selers"
+                  >Chocolate is loved</a
+                >
               </li>
             </ul>
           </nav>
@@ -657,9 +665,9 @@
       </div>
     </footer>
     <!-- =================FORM -->
-    <div class="background-form">
+    <div class="background-form" id="form-menu">
       <form class="my-form">
-        <button class="form-btn-close" type="button">
+        <button class="form-btn-close" type="button" id="btn-close-form">
           <svg class="form-close-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
@@ -713,13 +721,17 @@
       </form>
     </div>
     <!-- =================MOBAIL MENU====================== -->
-    <div class="mobail-menu" id="mobail-menu">
+    <div class="mobail-menu" id="mobil-menu-burger">
       <nav class="mobail-menu-nav">
         <ul class="mobail-menu-nav-list">
-          <li><a href="" class="mobail-menu-nav-link">Home</a></li>
-          <li><a href="" class="mobail-menu-nav-link">How it’s made?</a></li>
+          <li><a href="#home" class="mobail-menu-nav-link">Home</a></li>
           <li>
-            <a href="" class="mobail-menu-nav-link">Chocolate is loved</a>
+            <a href="#made" class="mobail-menu-nav-link">How it’s made?</a>
+          </li>
+          <li>
+            <a href="#selers" class="mobail-menu-nav-link"
+              >Chocolate is loved</a
+            >
           </li>
         </ul>
       </nav>
@@ -751,7 +763,7 @@
       <button
         type="button"
         class="mobail-menu-close-button"
-        id="button-close-mob"
+        id="btn-close-burger"
       >
         <svg height="28" width="28">
           <use href="./images/icons.svg#icon-close"></use>
